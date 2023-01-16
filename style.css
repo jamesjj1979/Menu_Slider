@@ -27,7 +27,7 @@ nav{
     width: 200px;
     height: 100vh;
     z-index: 100;
-    /* transform: translateX(-100%); */
+    transform: translateX(-100%);
 }
 nav .logo{
     padding: 30px;
@@ -38,4 +38,29 @@ nav .logo img{
     height: 74px;
     width: 74px;
     border-radius: 50%g;
+}
+
+.nav ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li{
+    border-bottom: 2px solid rgba(200,200,200,0.1);
+    padding: 20px;
+
+}
+
+nav ul li:first-of-type{
+    border-top: 2px solid rgba(200,200,200,0.1);
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li:hover{
+    text-decoration: underline;
 }
